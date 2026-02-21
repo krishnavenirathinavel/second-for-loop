@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+  int N,i;
+  scanf("%d",&N);
+  int withdrawal,total = 0;
+  scanf("%d",&withdrawal);
+  for( i = 0;i < N;i++){
+    total = total + withdrawal;
+  }
+    if(total  <= 10000){
+      printf("Approved\n");
+    }
+    else{
+    printf("Limit Exceeded");
+    }
+  
+  return 0;
+}
+
+ 

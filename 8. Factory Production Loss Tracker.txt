@@ -1,0 +1,24 @@
+ #include <stdio.h>
+
+int main()
+{ 
+  int i, highloss  = 0,total = 0,dailyLoss;
+  int n ;
+  scanf("%d",&n);
+  for( i = 0; i < n;i++){
+    scanf("%d",&dailyLoss);
+    total =  total +   dailyLoss ;
+    if(dailyLoss > 100){
+      
+    highloss++;
+    }
+  }
+    printf("Total loss : %d\n",total);
+    printf("High Loss Days : %d\n", highloss);
+    
+  
+  
+   
+
+    return 0;
+}

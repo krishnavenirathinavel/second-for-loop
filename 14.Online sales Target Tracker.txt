@@ -1,0 +1,17 @@
+ #include <stdio.h>
+ int main() {
+   int n,revenue;
+   int i,total = 0,target = 0;
+   scanf("%d",&n);
+   for(i = 0;i < n; i++){
+     scanf("%d",&revenue);
+     total =  total + revenue;
+     if( revenue > 50,000){
+       target++;
+     }
+   }
+   printf("Total Revenue: %d\n",total);
+   printf("Target Days: %d\n",target);
+
+    return 0;
+}

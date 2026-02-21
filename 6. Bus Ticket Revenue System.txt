@@ -1,0 +1,14 @@
+#include <stdio.h> 
+int main()
+{ 
+  int N,ticket;
+  int total  ;
+  scanf("%d",&N);
+  scanf("%d",&ticket);
+  for(int i = 0;i < N;i++){
+    total    = ticket + total ;
+  }
+  printf("Total collection : %d",total );
+ return 0;
+}
+  

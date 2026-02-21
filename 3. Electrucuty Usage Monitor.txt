@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+  int N,i;
+  scanf("%d",&N);
+  int units,total;
+  scanf("%d",&units);
+  for(i = 0; i < N;i++){
+    total = total + units;
+     
+  }
+  printf("Total units : %d\n",total);
+  return 0;
+}
+
+ 
